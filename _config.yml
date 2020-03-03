@@ -5,13 +5,7 @@ baseurl: ''
 url: 'https://yapyap93.github.io'
 repository: yapyap93/yapyap93.github.io
 exclude: 
-  - node_modules
-  - LICENSE
-  - Makefile
   - README.md
-  - package.json
-  - package-lock.json
-  - yarn.lock
 author: master@mono.svn.io
 image: ''
 google_analytics:
@@ -29,4 +23,3 @@ sass:
   style: compressed
   load_paths:
     - _sass
-    - node_modules  
