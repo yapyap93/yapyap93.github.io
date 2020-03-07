@@ -1,5 +1,11 @@
 $steps: 20;
 
+@media (max-width: 575.98px) { 
+    .glitch {
+        font-size: 40px !important;
+    }
+}
+
 .glitch {
     position: relative;
     margin: 0 auto;

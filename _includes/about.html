@@ -1,20 +1,18 @@
-<section class="vh-100 d-flex align-items-center" id='about'>
+<section class="min-vh-100 d-flex align-items-center" id='about'>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-8">
                 <h6 class="text-secondary font-weight-bold text-uppercase h5">About</h6>
                 <div class="heading-container mb-4">
-                    <h2 class="text-uppercase">yapyap93</h2>
+                    <h2 class="text-uppercase">{{ site.project }}</h2>
                     <hr class="bg-info" />
                 </div>
                 <p class="lead">
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem
+                    {{ site.about | newline_to_br }}
                 </p>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="assets/images/ssakssak.png" alt="" class="w-75 rounded-circle" />
+            <div class="col-lg-6 col-md-4 text-center">
+                <img src="{{ site.avatar }}" alt="" class="w-75 rounded-circle" />
             </div>
         </div>
     </div>

@@ -1,0 +1,49 @@
+<section class="min-vh-100 py-8" id="contact">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="offset-md-6 col-md-6">
+                <div class="heading-container mb-4">
+                    <hr class="bg-info" />
+                    <h2 class="text-uppercase">Contact</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <p class="lead text-right">
+                    There are many variations of passages of Lorem Ipsum available, but the majority
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <form action="mailto:{{ site.email }}" method="GET" enctype="text/plain">
+                    <div class="form-group">
+                        <label class="col-form-label" for="form-subject">Subject</label>
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" id="form-subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-comments">Message</label>
+                        <textarea name="body" class="form-control" id="form-comments" rows="9" placeholder="Message"></textarea>
+                    </div> 
+                    <button type="submit" class="btn btn-primary">Submit Mail</button>
+                </form>
+            </div>
+            <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
+                <img src="/assets/images/office.jpg" alt="" class="w-100" />
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6 d-flex justify-content-center">
+                <a href="tel:{{ site.telephone }}" class="h5 text-info text-center">
+                    <i class="fas fa-phone-alt .d-none .d-md-block"></i>
+                    <span class="text-white mx-2">{{ site.telephone }}</span>
+                </a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <a href="mailto:{{ site.email }}" class="h5 text-info text-center">
+                    <i class="fas fa-envelope .d-none .d-md-block"></i>
+                    <span class="text-white mx-2">{{ site.email }}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
