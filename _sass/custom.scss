@@ -83,8 +83,8 @@ $font-family-sans-serif: 'Noto Sans KR', $font-family-sans-serif;
 }
 
 .slider-video-element {
-    width: 100%;
-    height: calc(100vh - 5em);
+    @extend .w-100;
+    @extend .vh-100;
     background-size: cover;    
     object-fit: cover;
 }
