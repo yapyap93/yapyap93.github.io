@@ -13,9 +13,12 @@ exclude:
   - README.md  
 avatar: '/assets/images/ssakssak.png'
 slides:
-  - assets/images/glitch01.webm
-  - assets/images/glitch02.webm
-  - assets/images/glitch03.webm
+  - type: video/mp4
+    file: assets/images/glitch01.webm
+  - type: video/mp4
+    file: assets/images/glitch02.webm
+  - type: video/mp4
+    file: assets/images/glitch03.webm
 facebook:
 twitter:
 instagram:  
