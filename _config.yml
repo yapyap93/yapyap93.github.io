@@ -44,6 +44,10 @@ portfolio: |
   appear here. The extent of this string is  
   indicated by indentation.   
 portfolio-item:
+  - image: https://i.ytimg.com/vi/9mG7sZ7ysvs/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBQ9iXdYKqSSOSFRUlWnPQIJ2NSQQ
+    link: https://www.youtube.com/watch?v=9mG7sZ7ysvs
+  - image: https://cdn.vox-cdn.com/thumbor/DRBDPQtWBm3Fslrag4dWWtmUmXk=/0x0:1280x720/1200x800/filters:focal(591x265:795x469)/cdn.vox-cdn.com/uploads/chorus_image/image/60208351/ali_a.0.jpg
+    link: https://imagescdn.gettyimagesbank.com/500/19/662/369/0/1137628633.jpg
 footer: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi     

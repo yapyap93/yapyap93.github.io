@@ -19,7 +19,9 @@
             {% for item in site.portfolio-item %}
                 <div class="col-md-4">
                     <div class="card text-white bg-info mb-3">
-                        <img class="w-100 h-100" src="{{ item.image }}" alt="" />
+                        <a href="{{ item.link }}" data-toggle="lightbox" data-gallery="Portfolio">
+                            <div class="square-box" style="background-image:url('{{ item.image }}');"></div>
+                        </a>
                     </div>
                 </div>
             {% endfor %}
