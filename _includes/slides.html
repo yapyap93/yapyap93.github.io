@@ -11,7 +11,7 @@
                     {% assign count = 0 %}
                     {% for slide in site.slides %}
                         <div class="carousel-item {% if count == 0 %}active{% endif %}">
-                            <video loop muted autoplay class="slider-video-element">
+                            <video loop muted autoplay playsinline class="slider-video-element">
                                 <source src="{{ slide }}" type="video/webm">
                             </video>
                         </div>
