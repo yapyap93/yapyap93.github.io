@@ -14,11 +14,11 @@ exclude:
 avatar: '/assets/images/ssakssak.png'
 slides:
   - type: video/mp4
-    file: assets/images/glitch01.webm
+    file: assets/images/glitch01.mp4
   - type: video/mp4
-    file: assets/images/glitch02.webm
+    file: assets/images/glitch02.mp4
   - type: video/mp4
-    file: assets/images/glitch03.webm
+    file: assets/images/glitch03.mp4
 facebook:
 twitter:
 instagram:  
