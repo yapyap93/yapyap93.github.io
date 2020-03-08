@@ -11,6 +11,7 @@ exclude:
   - Gemfile
   - Gemfile.lock  
   - README.md  
+image: '/assets/images/ssakssak.png'
 avatar: '/assets/images/ssakssak.png'
 slides:
   - type: video/mp4
