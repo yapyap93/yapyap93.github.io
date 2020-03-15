@@ -14,35 +14,36 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-6 offset-lg-3 col-md-12">
                 <form action="mailto:{{ site.email }}" method="GET" enctype="text/plain">
                     <div class="form-group">
-                        <label class="col-form-label" for="form-subject">Subject</label>
+                        <label class="col-form-label text-center d-block" for="form-subject">Subject</label>
                         <input type="text" name="subject" class="form-control" placeholder="Subject" id="form-subject">
                     </div>
                     <div class="form-group">
-                        <label for="form-comments">Message</label>
+                        <label class="col-form-label text-center d-block" for="form-comments">Message</label>
                         <textarea name="body" class="form-control" id="form-comments" rows="9" placeholder="Message"></textarea>
                     </div> 
-                    <button type="submit" class="btn btn-primary">Submit Mail</button>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Submit Mail</button>
+                    </div>
                 </form>
-            </div>
-            <div class="offset-lg-1 col-lg-6 d-none d-lg-block">
-                <img src="/assets/images/office.jpg" alt="" class="w-100" />
             </div>
         </div>
         <div class="row my-5">
-            <div class="col-md-6 d-flex justify-content-center">
-                <a href="tel:{{ site.telephone }}" class="h5 text-info text-center">
-                    <i class="fas fa-phone-alt .d-none .d-md-block"></i>
-                    <span class="text-white mx-2">{{ site.telephone }}</span>
-                </a>
-            </div>
-            <div class="col-md-6 d-flex justify-content-center">
-                <a href="mailto:{{ site.email }}" class="h5 text-info text-center">
-                    <i class="fas fa-envelope .d-none .d-md-block"></i>
-                    <span class="text-white mx-2">{{ site.email }}</span>
-                </a>
+            <div class="col-md-12">
+                <div class="d-inline-block d-flex justify-content-center">
+                    <a href="tel:{{ site.telephone }}" class="h5 text-info text-center">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="text-white mx-2">{{ site.telephone }}</span>
+                    </a>
+                </div>
+                <div class="d-inline-block d-flex justify-content-center">
+                    <a href="mailto:{{ site.email }}" class="h5 text-info text-center">
+                        <i class="fas fa-envelope"></i>
+                        <span class="text-white mx-2">{{ site.email }}</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
