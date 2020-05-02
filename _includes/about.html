@@ -1,18 +1,29 @@
 <section class="min-vh-100 d-flex align-items-center" id='about'>
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-8">
-                <h6 class="text-secondary font-weight-bold text-uppercase h5">About</h6>
-                <div class="heading-container mb-4">
-                    <h2 class="text-uppercase">{{ site.project }}</h2>
-                    <hr class="bg-info" />
-                </div>
+            <div class="col-lg-4">
+                <h2 class='brand-image mx-auto'>{{ site.project }}</h2>
+            </div>
+            <div class="col-lg-3">
                 <p class="lead">
                     {{ site.about | newline_to_br }}
                 </p>
             </div>
-            <div class="col-lg-6 col-md-4 text-center">
-                <img src="{{ site.avatar }}" alt="" class="w-75 rounded-circle" />
+            <div class="col-lg-5">
+                <div class="row">
+                    {% for item in site.service-item %}
+                        <div class="col-md-6">
+                            <div class="card text-white bg-secondary mb-3">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center h1">
+                                        <i class="{{ item.icon }}"></i>
+                                    </h4>
+                                    <p class="card-text text-center">{{ item.text }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>

@@ -53,3 +53,23 @@ $font-family-sans-serif: 'Noto Sans KR', $font-family-sans-serif;
     -webkit-clip-path: polygon(0 0, 70% 0, 50% 100%, 0% 100%);
     clip-path: polygon(0 0, 70% 0, 50% 100%, 0% 100%);
 }
+
+.brand-image {
+    text-indent: -100em;
+    background: url(/assets/images/title.png);
+    background-size: auto 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+span.brand-image {
+    width: 1.5em;
+    display: inline-block;
+}
+
+h2.brand-image {
+    width: 6.5em;
+    height: 3em;
+    background-size: contain !important;
+    background-position: center center !important;
+}
