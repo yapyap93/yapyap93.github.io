@@ -10,8 +10,11 @@ $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ADAFAE !default;
+$gray-450: #A8A8A8 !default;
 $gray-500: #888 !default;
 $gray-600: #555 !default;
+$gray-650: #444349 !default;
+$gray-675: #343434 !default;
 $gray-700: #282828 !default;
 $gray-800: #222 !default;
 $gray-900: #212529 !default;
@@ -29,25 +32,24 @@ $teal:    #20c997 !default;
 $cyan:    #9933CC !default;
 
 $primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$secondary:     $gray-650 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-800 !default;
-$dark:          $gray-400 !default;
+$dark:          $gray-450 !default;
 
 $yiq-contrasted-threshold:  175 !default;
 
 
 // Body
 
-$body-bg:       #060606 !default;
-$body-color:    $gray-400 !default;
+$body-bg:       $white !default;
+$body-color:    $gray-675 !default;
 
 // Fonts
-
-$font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: 'Noto Sans KR';
 
 $font-size-base: .875rem !default;
 

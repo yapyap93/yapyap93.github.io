@@ -1,6 +1,7 @@
-title: 'CREATIVE TEAM : UM'
-project: 'CREATIVE TEAM : UM'
+title: 'UM COMPANY'
+project: 'UM COMPANY'
 telephone: 010 8674 7526
+telephone_link: 010-8674-7526
 email: yap_on@naver.com
 description: CREATIVE TEAM UM(음) 입니다
 baseurl: ''
@@ -14,31 +15,28 @@ exclude:
 image: '/assets/images/ssakssak.png'
 avatar: '/assets/images/ssakssak.png'
 slides:
-  - type: video/mp4
-    file: assets/images/glitch01.mp4
-  - type: video/mp4
-    file: assets/images/glitch02.mp4
-  - type: video/mp4
-    file: assets/images/glitch03.mp4
+  - assets/images/banner01.jpg
+  - assets/images/banner02.jpg
 facebook:
 twitter:
 instagram:  
 about: |
-  This is a multi-line string.  
-  "special" metacharacters may  
-  appear here. The extent of this string is  
-  indicated by indentation.  
+  SNS와 Youtube 등 온라인 미디어 콘텐츠를 제작합니다.  
+  기획부터 촬영, 편집까지의 제작 전반의 역량을 갖춰 정확한 커뮤니케이션과  
+  빠르고 합리적인 콘텐츠를 만듭니다.
 services: |
   This is a multi-line string. "special" metacharacters may  
 service-item:
   - icon: fab fa-adobe
-    text: design
+    text: Video Contents
   - icon: fas fa-film
-    text: video    
+    text: Viral Branded
   - icon: fas fa-gamepad
-    text: game    
+    text: SNS Contents
   - icon: fas fa-draw-polygon
-    text: draw            
+    text: SNS Marketing
+  - icon: fas fa-draw-polygon
+    text: Live Commerce
 portfolio: |
   This is a multi-line string.  
   "special" metacharacters may  

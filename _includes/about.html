@@ -1,15 +1,11 @@
 <section class="pt-8 min-vh-100 d-flex align-items-center" id='about'>
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <h2 class='brand-image mx-auto'>{{ site.project }}</h2>
-            </div>
-            <div class="col-lg-3">
                 <p class="lead">
                     {{ site.about | newline_to_br }}
                 </p>
-            </div>
-            <div class="col-lg-5">
                 <div class="row">
                     {% for item in site.service-item %}
                         <div class="col-md-6">
@@ -24,6 +20,9 @@
                         </div>
                     {% endfor %}
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <img src='/assets/images/about.jpg' alt='' />
             </div>
         </div>
     </div>
