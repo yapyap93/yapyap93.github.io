@@ -1,6 +1,6 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top py-2">
-        <a class="navbar-brand" href="/">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top px-5 py-1">
+        <a class="navbar-brand m-0" href="/">
             <span class='brand-image'>{{ site.project }}</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -8,38 +8,21 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+            <div class="d-flex ml-auto flex-column flex-lg-row">
                 <ul class="navbar-nav">
                     <li class="nav-item d-flex justify-content-center align-items-center">
-                        <a class="nav-link h6 m-0 p-3" href="#slides">Home</a>
+                        <a class="nav-link m-0 p-3" href="#home">Home</a>
                     </li>
                     <li class="nav-item d-flex justify-content-center align-items-center">
-                        <a class="nav-link h6 m-0 p-3" href="#about">소개</a>
+                        <a class="nav-link m-0 p-3" href="#about">소개</a>
                     </li>
                     <li class="nav-item d-flex justify-content-center align-items-center">
-                        <a class="nav-link h6 m-0 p-3" href="#portfolio">포트폴리오</a>
+                        <a class="nav-link m-0 p-3" href="#portfolio">포트폴리오</a>
                     </li>
                     <li class="nav-item d-flex justify-content-center align-items-center">
-                        <a class="nav-link h6 m-0 p-3" href="#contact">문의</a>
+                        <a class="nav-link m-0 p-3" href="#contact">문의</a>
                     </li>
                 </ul>
-            </div>
-            <div class="d-flex justify-content-center my-4 my-lg-0">
-                <a href="tel:{{ site.telephone }}" class="text-white mx-3 d-none d-sm-inline">
-                    <i class="fas fa-phone-alt"></i>
-                    CALL : {{ site.telephone }}
-                </a>
-                <a href="mailto:{{ site.email }}" class="text-white mx-3 d-none d-sm-inline">
-                    <i class="fas fa-envelope"></i>
-                    {{ site.email }}
-                </a>
-    
-                <a href="tel:{{ site.telephone }}" class="btn btn-lg btn-outline-light rounded-pill mx-3 d-block d-sm-none">
-                    <i class="fas fa-phone-alt"></i>
-                </a>
-                <a href="mailto:{{ site.email }}" class="btn btn-lg btn-outline-light rounded-pill mx-3 d-block d-sm-none">
-                    <i class="fas fa-envelope"></i>
-                </a>    
             </div>
         </div>
     </nav>
