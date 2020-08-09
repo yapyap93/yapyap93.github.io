@@ -12,7 +12,7 @@ exclude:
   - Gemfile
   - Gemfile.lock  
   - README.md  
-image: '/assets/images/ssakssak.png'
+image: 'assets/images/banner01.jpg'
 avatar: '/assets/images/ssakssak.png'
 slides:
   - assets/images/banner01.jpg
