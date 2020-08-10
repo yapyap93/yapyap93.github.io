@@ -12,9 +12,6 @@
     background-size: 115%;
     background-position: left;
     background-repeat: no-repeat;
-}
-
-span.brand-image {
     width: 9.543em;
     display: inline-block;
 }
@@ -25,7 +22,7 @@ span.brand-image {
     }
 }
 
-.jumbotron {
+#home {
     .lead {
         font-size: 1.25rem;
     }
@@ -37,6 +34,19 @@ span.brand-image {
     .carousel-item > img {
         background-size: cover;    
         object-fit: cover;
+    }
+}
+
+#about {
+    .brand-image {
+        background: url(/assets/images/about_logo.png);
+        width: 6.0417em;
+        height: 2.7085em;
+    }
+
+    .lead {
+        color: $gray-550;
+        line-height: 2;
     }
 }
 /*

@@ -26,15 +26,15 @@ about: |
 services: |
   This is a multi-line string. "special" metacharacters may  
 service-item:
-  - icon: fab fa-adobe
+  - image: assets/images/about_video_contents.png
     text: Video Contents
-  - icon: fas fa-film
-    text: Viral Branded
-  - icon: fas fa-gamepad
+  - image: assets/images/about_viral.png
+    text: Viral ⋅ Branded
+  - image: assets/images/about_sns_contents.png
     text: SNS Contents
-  - icon: fas fa-draw-polygon
+  - image: assets/images/about_sns_marketing.png
     text: SNS Marketing
-  - icon: fas fa-draw-polygon
+  - image: assets/images/about_live_commerce.png
     text: Live Commerce
 portfolio: |
   This is a multi-line string.  
