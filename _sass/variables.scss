@@ -6,12 +6,16 @@
 //
 
 $white:    #fff !default;
+$gray-50: #F4F4F4 !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
+$gray-350: #d2d2d2 !default;
 $gray-400: #ADAFAE !default;
 $gray-450: #A8A8A8 !default;
 $gray-500: #888 !default;
+$gray-550: #6B7175 !default;
+$gray-525: #626262 !default;
 $gray-600: #555 !default;
 $gray-650: #444349 !default;
 $gray-675: #343434 !default;
@@ -29,15 +33,23 @@ $orange:  #fd7e14 !default;
 $yellow:  #FF8800 !default;
 $green:   #77B300 !default;
 $teal:    #20c997 !default;
-$cyan:    #9933CC !default;
+$cyan:    #EB6978 !default;
 
+<<<<<<< HEAD
 $primary:       $blue !default;
+=======
+$primary:       $cyan !default;
+>>>>>>> renewal
 $secondary:     $gray-650 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $gray-525 !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
+<<<<<<< HEAD
 $light:         $gray-800 !default;
+=======
+$light:         $gray-50 !default;
+>>>>>>> renewal
 $dark:          $gray-450 !default;
 
 $yiq-contrasted-threshold:  175 !default;
@@ -59,7 +71,7 @@ $h3-font-size: 2.5rem !default;
 $h4-font-size: 2rem !default;
 $h5-font-size: 1.5rem !default;
 
-$headings-color:         $white !default;
+$headings-color: $gray-675 !default;
 
 // Tables
 
@@ -80,13 +92,13 @@ $input-btn-padding-x:       1rem !default;
 
 $input-disabled-bg:              $gray-400 !default;
 
-$input-border-color:             $white !default;
+$input-border-color:             $gray-350 !default;
 
-$input-group-addon-color:           $white !default;
+$input-group-addon-color:           $gray-350 !default;
 $input-group-addon-bg:              $gray-700 !default;
 $input-group-addon-border-color:    transparent !default;
 
-$custom-file-color:                 $white !default;
+$custom-file-color:                 $gray-350 !default;
 $custom-file-border-color:          $gray-700 !default;
 
 // Dropdowns

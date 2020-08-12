@@ -1,6 +1,7 @@
 <section class="pt-8 min-vh-100 d-flex align-items-center" id='about'>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row d-flex align-items-center">
+<<<<<<< HEAD
             <div class="col-lg-6">
                 <h2 class='brand-image mx-auto'>{{ site.project }}</h2>
                 <p class="lead">
@@ -23,6 +24,26 @@
             </div>
             <div class="col-lg-6">
                 <img src='/assets/images/about.jpg' alt='' />
+=======
+            <div class="offset-lg-1 col-lg-4">
+                <h2 class='brand-image'>{{ site.project }}</h2>
+                <p class="lead font-weight-normal py-4-5">
+                    {{ site.about | newline_to_br }}
+                </p>
+                <div class="container">
+                    <ul class="row list-unstyled">
+                        {% for item in site.service-item %}
+                            <li class="col-lg-5 py-2">
+                                <img class="mr-2" src='{{ item.image }}' alt='{{ item.text }}' />
+                                {{ item.text }}
+                            </li>
+                        {% endfor %}
+                    </dl>
+                </div>
+            </div>
+            <div class="offset-lg-1 col-lg-6">
+                <img class="w-100" src='/assets/images/about.png' alt='' />
+>>>>>>> renewal
             </div>
         </div>
     </div>

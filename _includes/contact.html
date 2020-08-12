@@ -1,43 +1,21 @@
 <section class="min-vh-100 py-8" id="contact">
+    <h2 class="text-uppercase text-center pb-5 font-weight-bold">Contact</h2>
     <div class="container">
-        <div class="row mb-4">
-            <div class="col-md-12">
-                <div class="heading-container">
-                    <h2 class="text-uppercase mx-auto">Contact</h2>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-lg-6 offset-lg-3 col-md-12">
                 <form action="mailto:{{ site.email }}" method="GET" enctype="text/plain">
                     <div class="form-group">
                         <label class="col-form-label text-center d-block" for="form-subject">Subject</label>
-                        <input type="text" name="subject" class="form-control" placeholder="Subject" id="form-subject">
+                        <input type="text" name="subject" class="form-control" placeholder="" id="form-subject">
                     </div>
                     <div class="form-group">
                         <label class="col-form-label text-center d-block" for="form-comments">Message</label>
-                        <textarea name="body" class="form-control" id="form-comments" rows="9" placeholder="Message"></textarea>
+                        <textarea name="body" class="form-control" id="form-comments" rows="9" placeholder=""></textarea>
                     </div> 
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary">Submit Mail</button>
                     </div>
                 </form>
-            </div>
-        </div>
-        <div class="row my-5">
-            <div class="col-md-12">
-                <div class="my-4 text-center">
-                    <a href="tel:{{ site.telephone }}" class="h5 text-info text-center">
-                        <i class="fas fa-phone-alt"></i>
-                        <span class="text-white mx-2">{{ site.telephone }}</span>
-                    </a>
-                </div>
-                <div class="my-4 text-center">
-                    <a href="mailto:{{ site.email }}" class="h5 text-info text-center">
-                        <i class="fas fa-envelope"></i>
-                        <span class="text-white mx-2">{{ site.email }}</span>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
