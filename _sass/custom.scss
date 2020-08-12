@@ -50,13 +50,6 @@
     padding-top: 3.2rem !important;
 }
 
-<<<<<<< HEAD
-.pl-4-5, .px-4-5 {
-    padding-left: 1.745rem !important;
-}
-
-.pr-4-5, .px-4-5 {
-=======
 .pt-4-5, .py-4-5, .p-4-5 {
     padding-top: 1.745rem !important;
 }
@@ -70,7 +63,6 @@
 }
 
 .pr-4-5, .px-4-5, .p-4-5 {
->>>>>>> renewal
     padding-right: 1.745rem !important;
 }
 
@@ -146,12 +138,6 @@
     padding-top: 7.3125rem !important;
 }
 
-<<<<<<< HEAD
-.box-align-center {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-}
-=======
 .square-box {
     @extend .d-inline-block;
     @extend .w-100;
@@ -164,4 +150,3 @@
     content: '';
     padding-bottom: 100%;
 }
->>>>>>> renewal
