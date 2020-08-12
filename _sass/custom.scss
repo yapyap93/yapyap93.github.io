@@ -138,7 +138,15 @@
     padding-top: 7.3125rem !important;
 }
 
-.box-align-center {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+.square-box {
+    @extend .d-inline-block;
+    @extend .w-100;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.square-box:after {
+    @extend .d-inline-block;
+    content: '';
+    padding-bottom: 100%;
 }

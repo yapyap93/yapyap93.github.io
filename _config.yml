@@ -23,8 +23,6 @@ about: |
   SNS와 Youtube 등 온라인 미디어 콘텐츠를 제작합니다.  
   기획부터 촬영, 편집까지의 제작 전반의 역량을 갖춰 정확한 커뮤니케이션과  
   빠르고 합리적인 콘텐츠를 만듭니다.
-services: |
-  This is a multi-line string. "special" metacharacters may  
 service-item:
   - image: assets/images/about_video_contents.png
     text: Video Contents
@@ -46,9 +44,6 @@ portfolio-item:
     link: https://www.youtube.com/watch?v=9mG7sZ7ysvs
   - image: https://cdn.vox-cdn.com/thumbor/DRBDPQtWBm3Fslrag4dWWtmUmXk=/0x0:1280x720/1200x800/filters:focal(591x265:795x469)/cdn.vox-cdn.com/uploads/chorus_image/image/60208351/ali_a.0.jpg
     link: https://imagescdn.gettyimagesbank.com/500/19/662/369/0/1137628633.jpg
-footer: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi     
 sass:
   style: compressed
   load_paths:
