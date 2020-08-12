@@ -11,8 +11,8 @@ exclude:
   - Gemfile
   - Gemfile.lock  
   - README.md  
-image: '/assets/images/ssakssak.png'
-avatar: '/assets/images/ssakssak.png'
+image: 'assets/images/banner01.jpg'
+avatar: 'assets/images/banner01.jpg'
 slides:
   - assets/images/banner01.jpg
   - assets/images/banner02.jpg
