@@ -40,18 +40,27 @@ portfolio: |
   appear here. The extent of this string is  
   indicated by indentation.   
 portfolio-item:
-  - image: 
+  - image: https://img.youtube.com/vi/fz50p2FZo0c/hqdefault.jpg
     link: https://youtu.be/fz50p2FZo0c
+    
   - image: 
-    link: https://youtu.be/A3AURx-aYj8
+    link: 
+    
   - image:
     link:
+    
   - image: 
     link: 
+    
   - image: 
     link: 
+    
   - image: 
     link: 
+    
+  - image: 
+    link: 
+    
 sass:
   style: compressed
   load_paths:
