@@ -40,10 +40,18 @@ portfolio: |
   appear here. The extent of this string is  
   indicated by indentation.   
 portfolio-item:
-  - image: https://i.ytimg.com/vi/9mG7sZ7ysvs/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBQ9iXdYKqSSOSFRUlWnPQIJ2NSQQ
-    link: https://www.youtube.com/watch?v=9mG7sZ7ysvs
-  - image: https://cdn.vox-cdn.com/thumbor/DRBDPQtWBm3Fslrag4dWWtmUmXk=/0x0:1280x720/1200x800/filters:focal(591x265:795x469)/cdn.vox-cdn.com/uploads/chorus_image/image/60208351/ali_a.0.jpg
-    link: https://imagescdn.gettyimagesbank.com/500/19/662/369/0/1137628633.jpg
+  - image: 
+    link: https://youtu.be/fz50p2FZo0c
+  - image: 
+    link: https://youtu.be/A3AURx-aYj8
+  - image:
+    link:
+  - image: 
+    link: 
+  - image: 
+    link: 
+  - image: 
+    link: 
 sass:
   style: compressed
   load_paths:
