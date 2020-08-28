@@ -43,23 +43,20 @@ portfolio-item:
   - image: https://img.youtube.com/vi/fz50p2FZo0c/hqdefault.jpg
     link: https://youtu.be/fz50p2FZo0c
     
-  - image: 
-    link: 
+  - image: https://img.youtube.com/vi/A3AURx-aYj8/hqdefault.jpg
+    link: https://youtu.be/A3AURx-aYj8  
     
-  - image:
-    link:
+  - image: https://img.youtube.com/vi/372yRcG-Sa4/hqdefault.jpg
+    link: https://youtu.be/372yRcG-Sa4
     
-  - image: 
-    link: 
+      - image: https://img.youtube.com/vi/azu5oR1m62Q/hqdefault.jpg
+    link: https://youtu.be/azu5oR1m62Q
     
-  - image: 
-    link: 
+  - image: https://img.youtube.com/vi/YVhaikslh28/hqdefault.jpg
+    link: https://youtu.be/YVhaikslh28
     
-  - image: 
-    link: 
-    
-  - image: 
-    link: 
+  - image: https://img.youtube.com/vi/P5tK8f3jKQs/hqdefault.jpg
+    link: https://youtu.be/P5tK8f3jKQs
     
 sass:
   style: compressed
