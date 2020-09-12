@@ -1,0 +1,187 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop, $abbrev in (margin: m, padding: p) {
+      .#{$abbrev}#{$infix}-0-5 { #{$prop}: .125rem !important; }
+      .#{$abbrev}t#{$infix}-0-5,
+      .#{$abbrev}y#{$infix}-0-5 {
+        #{$prop}-top: .125rem !important;
+      }
+      .#{$abbrev}r#{$infix}-0-5,
+      .#{$abbrev}x#{$infix}-0-5 {
+        #{$prop}-right: .125rem !important;
+      }
+      .#{$abbrev}b#{$infix}-0-5,
+      .#{$abbrev}y#{$infix}-0-5 {
+        #{$prop}-bottom: .125rem !important;
+      }
+      .#{$abbrev}l#{$infix}-0-5,
+      .#{$abbrev}x#{$infix}-0-5 {
+        #{$prop}-left: .125rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-1-75 { #{$prop}: .4375rem !important; }
+      .#{$abbrev}t#{$infix}-1-75,
+      .#{$abbrev}y#{$infix}-1-75 {
+        #{$prop}-top: .4375rem !important;
+      }
+      .#{$abbrev}r#{$infix}-1-75,
+      .#{$abbrev}x#{$infix}-1-75 {
+        #{$prop}-right: .4375rem !important;
+      }
+      .#{$abbrev}b#{$infix}-1-75,
+      .#{$abbrev}y#{$infix}-1-75 {
+        #{$prop}-bottom: .4375rem !important;
+      }
+      .#{$abbrev}l#{$infix}-1-75,
+      .#{$abbrev}x#{$infix}-1-75 {
+        #{$prop}-left: .4375rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-2-5 { #{$prop}: .5625rem !important; }
+      .#{$abbrev}t#{$infix}-2-5,
+      .#{$abbrev}y#{$infix}-2-5 {
+        #{$prop}-top: .5625rem !important;
+      }
+      .#{$abbrev}r#{$infix}-2-5,
+      .#{$abbrev}x#{$infix}-2-5 {
+        #{$prop}-right: .5625rem !important;
+      }
+      .#{$abbrev}b#{$infix}-2-5,
+      .#{$abbrev}y#{$infix}-2-5 {
+        #{$prop}-bottom: .5625rem !important;
+      }
+      .#{$abbrev}l#{$infix}-2-5,
+      .#{$abbrev}x#{$infix}-2-5 {
+        #{$prop}-left: .5625rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-4-5 { #{$prop}: 1.745rem !important; }
+      .#{$abbrev}t#{$infix}-4-5,
+      .#{$abbrev}y#{$infix}-4-5 {
+        #{$prop}-top: 1.745rem !important;
+      }
+      .#{$abbrev}r#{$infix}-4-5,
+      .#{$abbrev}x#{$infix}-4-5 {
+        #{$prop}-right: 1.745rem !important;
+      }
+      .#{$abbrev}b#{$infix}-4-5,
+      .#{$abbrev}y#{$infix}-4-5 {
+        #{$prop}-bottom: 1.745rem !important;
+      }
+      .#{$abbrev}l#{$infix}-4-5,
+      .#{$abbrev}x#{$infix}-4-5 {
+        #{$prop}-left: 1.745rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-5-75 { #{$prop}: 3.2rem !important; }
+      .#{$abbrev}t#{$infix}-5-75,
+      .#{$abbrev}y#{$infix}-5-75 {
+        #{$prop}-top: 3.2rem !important;
+      }
+      .#{$abbrev}r#{$infix}-5-75,
+      .#{$abbrev}x#{$infix}-5-75 {
+        #{$prop}-right: 3.2rem !important;
+      }
+      .#{$abbrev}b#{$infix}-5-75,
+      .#{$abbrev}y#{$infix}-5-75 {
+        #{$prop}-bottom: 3.2rem !important;
+      }
+      .#{$abbrev}l#{$infix}-5-75,
+      .#{$abbrev}x#{$infix}-5-75 {
+        #{$prop}-left: 3.2rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-6 { #{$prop}: 3.6rem !important; }
+      .#{$abbrev}t#{$infix}-6,
+      .#{$abbrev}y#{$infix}-6 {
+        #{$prop}-top: 3.6rem !important;
+      }
+      .#{$abbrev}r#{$infix}-6,
+      .#{$abbrev}x#{$infix}-6 {
+        #{$prop}-right: 3.6rem !important;
+      }
+      .#{$abbrev}b#{$infix}-6,
+      .#{$abbrev}y#{$infix}-6 {
+        #{$prop}-bottom: 3.6rem !important;
+      }
+      .#{$abbrev}l#{$infix}-6,
+      .#{$abbrev}x#{$infix}-6 {
+        #{$prop}-left: 3.6rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-7 { #{$prop}: 4.2rem !important; }
+      .#{$abbrev}t#{$infix}-7,
+      .#{$abbrev}y#{$infix}-7 {
+        #{$prop}-top: 4.2rem !important;
+      }
+      .#{$abbrev}r#{$infix}-7,
+      .#{$abbrev}x#{$infix}-7 {
+        #{$prop}-right: 4.2rem !important;
+      }
+      .#{$abbrev}b#{$infix}-7,
+      .#{$abbrev}y#{$infix}-7 {
+        #{$prop}-bottom: 4.2rem !important;
+      }
+      .#{$abbrev}l#{$infix}-7,
+      .#{$abbrev}x#{$infix}-7 {
+        #{$prop}-left: 4.2rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-7-75 { #{$prop}: 4.7rem !important; }
+      .#{$abbrev}t#{$infix}-7-75,
+      .#{$abbrev}y#{$infix}-7-75 {
+        #{$prop}-top: 4.7rem !important;
+      }
+      .#{$abbrev}r#{$infix}-7-75,
+      .#{$abbrev}x#{$infix}-7-75 {
+        #{$prop}-right: 4.7rem !important;
+      }
+      .#{$abbrev}b#{$infix}-7-75,
+      .#{$abbrev}y#{$infix}-7-75 {
+        #{$prop}-bottom: 4.7rem !important;
+      }
+      .#{$abbrev}l#{$infix}-7-75,
+      .#{$abbrev}x#{$infix}-7-75 {
+        #{$prop}-left: 4.7rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-8 { #{$prop}: 4.8rem !important; }
+      .#{$abbrev}t#{$infix}-8,
+      .#{$abbrev}y#{$infix}-8 {
+        #{$prop}-top: 4.8rem !important;
+      }
+      .#{$abbrev}r#{$infix}-8,
+      .#{$abbrev}x#{$infix}-8 {
+        #{$prop}-right: 4.8rem !important;
+      }
+      .#{$abbrev}b#{$infix}-8,
+      .#{$abbrev}y#{$infix}-8 {
+        #{$prop}-bottom: 4.8rem !important;
+      }
+      .#{$abbrev}l#{$infix}-8,
+      .#{$abbrev}x#{$infix}-8 {
+        #{$prop}-left: 4.8rem !important;
+      }
+
+      .#{$abbrev}#{$infix}-9 { #{$prop}: 7.3125rem !important; }
+      .#{$abbrev}t#{$infix}-9,
+      .#{$abbrev}y#{$infix}-9 {
+        #{$prop}-top: 7.3125rem !important;
+      }
+      .#{$abbrev}r#{$infix}-9,
+      .#{$abbrev}x#{$infix}-9 {
+        #{$prop}-right: 7.3125rem !important;
+      }
+      .#{$abbrev}b#{$infix}-9,
+      .#{$abbrev}y#{$infix}-9 {
+        #{$prop}-bottom: 7.3125rem !important;
+      }
+      .#{$abbrev}l#{$infix}-9,
+      .#{$abbrev}x#{$infix}-9 {
+        #{$prop}-left: 7.3125rem !important;
+      }
+    }
+  }
+}
