@@ -40,6 +40,12 @@ portfolio: |
   appear here. The extent of this string is  
   indicated by indentation.   
 portfolio-item:
+  - image: https://i.ytimg.com/an_webp/Fq_f9PkTcM4/mqdefault_6s.webp?du=3000&sqp=CJSIxvsF&rs=AOn4CLDn7d6tIMQFO6dKjubrdbNwrJdZrw
+    link: https://youtu.be/Fq_f9PkTcM4
+
+  - image: https://i.ytimg.com/an_webp/9vhXaO-6V7c/mqdefault_6s.webp?du=3000&sqp=CMeRxvsF&rs=AOn4CLDx8YEW7_Ir6YGA4C1k9dU38WlybQ
+    link: https://youtu.be/9vhXaO-6V7c
+    
   - image: assets/images/SK_Live_200901.JPG
     link: https://mall.saucelive.net/broadcast/10771?sessionKey=3N0JMQP8z3dB/vwaLUV6nXIrX70dBDOTAUedIrNr+YG0KqpTVmCgKFXngS0Z09P8UEVgjQeQIjXXpOloF09CurpNStsPHOSLd7RCsh2WggjLWhc2664QxMTULpnA/l+0bl/+2QZIeJATz5rKp9CorKDTST0uN4NSZaadnTkwnWVatZx+zCzXUR3mOTJx9nfU&serviceId=skmagic
     
